@@ -59,8 +59,8 @@ nav {
     -webkit-text-fill-color: transparent;
     font-size: 95px;
     font-weight: 800;
-   margin-top: 0;
-   margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 
 }
 
@@ -89,24 +89,61 @@ nav {
 
 /* gamer section style */
 
-.gamer{
+.gamer {
+   margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 140px;
+    padding: 100px 140px;
 }
 
-.gamer-info{
+.gamer-img{
+    width: 700px;
+}
+
+.gamer-info {
     text-align: right;
 }
 
 /* Funny Section style */
 
-.funny-info{
+.funny{
+    margin-top: 50px;
+}
+
+.funny-info {
     text-align: center;
 }
-.funny-img{
+
+.funny-img {
     display: flex;
     justify-content: space-around;
+    gap: 10px;
     text-align: center;
+}
+
+/* play-instantly */
+
+.play-instantly {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    gap: 150px;
+    padding-left: 150px;
+    
+}
+
+.play-info-title{
+    color: #F948B2;
+}
+
+.play-img-2 {
+
+    position: relative;
+    top: -300px;
+    right: 450px;
+
+
 }
