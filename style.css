@@ -6,7 +6,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* nav section style */
+/* header section style */
 
 nav{
     display: flex;
@@ -32,4 +32,11 @@ nav{
 .about ul a{
     text-decoration: none;
     margin-right: 20px;
+}
+
+/* Banner section style */
+
+.banner{
+    
+   
 }
