@@ -1,0 +1,27 @@
+/* nav section style */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gamer-title{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.gamer-title-img{
+    width: 86px;
+    height: 40px;
+}
+.about ul{
+    display: flex;
+    list-style:none; 
+    
+}
+
+.about ul a{
+    text-decoration: none;
+    margin-right: 20px;
+}
