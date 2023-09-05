@@ -2,41 +2,87 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
-*{
+* {
     font-family: 'Work Sans', sans-serif;
 }
 
 /* header section style */
 
-nav{
+nav {
     display: flex;
     justify-content: space-evenly;
 }
 
-.gamer-title{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+.gamer-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.gamer-title-img{
+.gamer-title-img {
     width: 86px;
     height: 40px;
 }
-.about ul{
+
+.about ul {
     display: flex;
-    list-style:none; 
-    
+    list-style: none;
+
 }
 
-.about ul a{
+.about ul a {
     text-decoration: none;
     margin-right: 20px;
 }
 
 /* Banner section style */
 
-.banner{
-    
-   
+.banner {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 140px;
+
+}
+
+.banner-info-title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.title-heading {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+   margin-top: 0;
+   margin-bottom: 0;
+
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.sign-in-btn {
+    width: 156px;
+    height: 65px;
+    border-radius: 40px;
+    background: orchid;
+    border-style: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.go-rogue-btn {
+    width: 185px;
+    height: 65px;
+    border-radius: 40px;
+    background: #4EC5F7;
+    border-style: none;
 }
