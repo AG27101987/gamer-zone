@@ -223,4 +223,51 @@ footer{
     color: #FFF;
 }
 
+/* responsive media queries */
 
+@media screen and (max-width: 576px) {
+    nav {
+       flex-direction: column;
+       
+    } 
+
+    .gamer-title {
+        display: flex;
+        justify-content: center;    
+}
+
+.banner, .gamer, .funny-img, .play-instantly, .careers {
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 50px;
+    gap: 0;
+
+}
+
+.banner-img img, .gamer img {
+    height: 300px;
+    width: 300px;
+    padding: 0;
+}
+
+.careers-img{
+      margin: 0;
+}
+
+.play-img-1
+{
+   margin-top: 50px;
+    width: 300px;
+}
+
+
+.play-img-2 {
+
+    position: relative;
+  left: 20px;
+  top: 40px; 
+  justify-content: center;   
+  margin-bottom: 100px;
+
+
+}
