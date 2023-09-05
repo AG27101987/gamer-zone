@@ -91,7 +91,22 @@ nav {
 
 .gamer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 140px;
+}
+
+.gamer-info{
+    text-align: right;
+}
+
+/* Funny Section style */
+
+.funny-info{
+    text-align: center;
+}
+.funny-img{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
