@@ -170,3 +170,24 @@ nav {
 .careers-text-2{
     text-align: right;
 }
+
+
+/* Style for Games Section */
+
+
+.first-line-games{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+}
+.second-line-games{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.game{
+    display: flex;
+}
