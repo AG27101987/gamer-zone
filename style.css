@@ -68,7 +68,7 @@ nav {
     margin-top: 20px;
 }
 
-.sign-in-btn {
+.btn-primary {
     width: 156px;
     height: 65px;
     border-radius: 40px;
@@ -85,4 +85,13 @@ nav {
     border-radius: 40px;
     background: #4EC5F7;
     border-style: none;
+}
+
+/* gamer section style */
+
+.gamer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 140px;
 }
